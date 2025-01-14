@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 /* eslint-disable react/prop-types */
 const TaskList = ({ tasks }) => {
   return (
-    <div>
+    <>
       <div className="overflow-auto">
         <table className="table-fixed overflow-auto xl:w-full">
           <thead>
@@ -71,7 +71,7 @@ const TaskList = ({ tasks }) => {
           </tbody>
         </table>
       </div>
-    </div>
+    </>
   );
 };
 
